@@ -10,8 +10,16 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-nav#menu, header, main, footer {
+header, main, footer {
     width: 1024px;
+    margin: auto;
+}
+
+nav#menu {
+    position: fixed;
+    top: 0;
+    background-color: white;
+    width: 100%;
     margin: auto;
 }
 
@@ -48,6 +56,7 @@ ul{
 }
 
 header{
+    margin-top: 80px;
     height: 300px;
     background-image: url(../images/toronto.jpg);
     background-size: cover;
@@ -85,6 +94,9 @@ main{
 aside{
     display: flex;
     flex-direction: column;
+    position: sticky;
+    overflow: auto;
+    top:100px;
 }
 
 section{
