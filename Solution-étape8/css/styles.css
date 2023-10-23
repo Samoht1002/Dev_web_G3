@@ -143,6 +143,12 @@ article#crypto img{
     float:left;
     width: 50px;
 }
+
+article#meme-stock figure{
+    margin:auto;
+    width: 500px;
+}
+
 footer{
     display: flex;
     flex-direction: row;
